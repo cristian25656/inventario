@@ -1,6 +1,7 @@
 #Primera parte
 iterador = 1
 while iterador != 0:
+#se usa la variable para abrir el bucle y crearle una condicion, en este caso, que el iterador sea diferente de 0, para que el bucle se ejecute con normalidad.
     try:
         name = str(input("Enter the product name: "))
         price = float(input("Enter the price: "))
