@@ -17,3 +17,4 @@ print(f"Producto: {name} | Precio: {price} | Cantidad: {amount} | Total: {total_
 #Pide el nombre de un producto que precio tiene y cuantas unidades se llevaran.
 #Al final, se multiplica el precio por la cantidad para dar un resultado con "print".
 #while junto a try/except los utilizo para que si el usuario digita un valor invalido se repita la pregunta.
+ 

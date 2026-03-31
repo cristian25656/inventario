@@ -25,8 +25,7 @@ while iterador != 0:
             nuevo_producto["cantidad"] = int(input("Digite la cantidad del producto: "))
             inventario.append(nuevo_producto)
             print(nuevo_producto)
-            precio += nuevo_producto["precio"]
-            cantidad += nuevo_producto["cantidad"]
+            precio += nuevo_producto["precio"] * nuevo_producto["cantidad"]        
         elif opcion == 2:
             if not inventario:
                 print("inventario vacio")
@@ -34,7 +33,7 @@ while iterador != 0:
                 for i in inventario:
                     print(i)
         elif opcion == 3:
-            valor_total = (precio * cantidad) / cantidad
+            valor_total = precio
             print(f"El valor total de todo el inventario contando todos los productos es {valor_total}")
             print(f"cantidad total de productos es {can}")
         elif opcion == 4:
